@@ -7,7 +7,7 @@ COPY . /app
 # Install dependencies
 RUN ["npm","install"]
 # Expose port
-# Debug use docker run -p 3000:3000
-EXPOSE 3000
+# Debug use docker run -p 5000:5000
+EXPOSE 5000
 # Entrypoint
 ENTRYPOINT ["node", "app.js"]
