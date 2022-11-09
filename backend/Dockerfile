@@ -1,0 +1,13 @@
+# Base image
+FROM node:16
+# Create and Switch workdir
+WORKDIR /app
+# App source
+COPY . /app
+# Install dependencies
+RUN ["npm","install"]
+# Expose port
+# Debug use docker run -p 5000:5000
+EXPOSE 5000
+# Entrypoint
+ENTRYPOINT ["node", "app.js"]
