@@ -4,6 +4,9 @@ FROM node:16
 WORKDIR /app
 # App source
 COPY . /app
+# Set npm socket timeout
+RUN ["npm","config","set","fetch-retry-mintimeout","20000"]
+RUN ["npm","config","set","fetch-retry-maxtimeout","120000"]
 # Install dependencies
 RUN ["npm","install"]
 # Expose port
