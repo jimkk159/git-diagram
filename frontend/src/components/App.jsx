@@ -1,16 +1,14 @@
 import React from "react";
-import Title from "./Title"
-import Description from "./Description"
-import User from "./User"
-import Diagram from "./Diagram"
+import Header from "./Header";
+import Body from './Body';
+import Footer from "./Footer";
 
 function App(){
     return <div>
-                <Title />
-                <Description />
-                <User />
-                <Diagram />
-            </div>;
+                <Header />
+                <Body />
+                <Footer />
+            </div>
 }
 
 export default App;
