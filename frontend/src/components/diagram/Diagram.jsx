@@ -1,9 +1,11 @@
 import React from 'react';
+import Arrow from './Arrow';
 import Circle from "./Circle";
 
 function Diagram(){
     return (<div>
                 <p>What git diagram look like</p>
+                <Arrow />
                 <Circle 
                     name="A1"
                     color="black"

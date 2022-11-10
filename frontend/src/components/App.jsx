@@ -4,8 +4,8 @@ import Body from './Body';
 import Footer from "./Footer";
 
 function App(){
-    return <div>
-                <Header />
+    return <div>      
+                <Header />          
                 <Body />
                 <Footer />
             </div>

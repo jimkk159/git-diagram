@@ -3,7 +3,11 @@ const CurrentDate = new Date();
 const CurrentYear = CurrentDate.getFullYear();
 
 function Footer(){
-    return (<footer><p>&copy; Jim {CurrentYear}</p></footer>);
+    return (<footer>
+                <div className='row'>
+                    <p>&copy; Jim {CurrentYear}</p>
+                </div>
+            </footer>);
 }
 
 export default Footer;

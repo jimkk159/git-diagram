@@ -1,17 +1,15 @@
 import React from 'react';
-import Title from "./Title"
-import Description from "./Description"
-import Note from './Note';
-import User from "./User"
-import Diagram from "./Diagram"
+import User from "./user/User"
+import Diagram from "./diagram/Diagram"
 
 function Body(){
-    return <div>
-                <Title />
-                <Description />
-                <Note />
-                <User />
-                <Diagram />
+    return  <div className='row'>
+                <div className='col-4'>
+                    <User />
+                </div>
+                <div className='col-8'>
+                    <Diagram />
+                </div>
             </div>;
 }
 
