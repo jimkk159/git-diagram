@@ -1,27 +1,27 @@
 import React from 'react';
 import Arrow from './Arrow';
-import Circle from "./Circle";
+import Node from "./Circle";
 
 function Diagram(){
     return (<div>
                 <p>What git diagram look like</p>
                 <Arrow />
-                <Circle 
+                <Node 
                     name="A1"
                     color="black"
                     backgroundColor="#FF66D3"
                 />
-                <Circle 
+                <Node 
                     name="A2"
                     color="black"
                     backgroundColor="#7278FF"
                 />
-                <Circle 
+                <Node 
                     name="B1"
                     color="black"
                     backgroundColor="#FFA766"
                 />
-                <Circle 
+                <Node 
                     name="B2"
                     color="black"
                     backgroundColor="#99FF66"

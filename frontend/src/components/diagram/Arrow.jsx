@@ -8,8 +8,8 @@ function Arrow(props){
                     <polygon points="0 0, 10 3.5, 0 7" />
                 </marker>
                 </defs>
-                <line x1="0" y1="50" x2="250" y2="50" stroke="#000" 
-                stroke-width="8" marker-end="url(#arrowhead)" />
+                <line x1="0" y1="30" x2="25" y2="30" stroke="#000" 
+                stroke-width="4" marker-end="url(#arrowhead)" />
             </svg>;
 }
 

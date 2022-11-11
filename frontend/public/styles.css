@@ -58,14 +58,7 @@
     word-wrap: break-word;
   }
   
-  /* Dot */
-  .dot {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border:white 2px solid;
+  /* Node */
+  .node {
     font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", monospace;
   }
