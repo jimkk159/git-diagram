@@ -1,16 +1,16 @@
 import React from 'react';
 
 function Arrow(props){
-    return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 100">
-                <defs>
-                <marker id="arrowhead" markerWidth="10" markerHeight="7" 
-                refX="0" refY="3.5" orient="auto">
-                    <polygon points="0 0, 10 3.5, 0 7" />
-                </marker>
-                </defs>
-                <line x1="0" y1="30" x2="25" y2="30" stroke="#000" 
-                stroke-width="4" marker-end="url(#arrowhead)" />
-            </svg>;
+    return 
+
+            
+}
+
+function FatArrow(props){
+
+    return <path fill="#ff66d3" stroke="#ffffff" d="M366,59L317,59L317,53L303,67L317,81L317,75L366,75Z" opacity="1" transform="matrix(0.8192,-0.5736,0.5736,0.8192,20.064,183.9781)" stroke-dasharray="none" stroke-width="3" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); opacity: 1; cursor: pointer;"></path>;
+
 }
 
 export default Arrow;
+export { FatArrow };
