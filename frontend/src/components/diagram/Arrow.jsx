@@ -1,7 +1,9 @@
 import React from 'react';
+import {Set} from 'react-raphael';
+import ArrowHead from './ArrowHead';
 
 function Arrow(props){
-    return 
+    return <Set><ArrowHead x={111} y={45}/></Set>;
 
             
 }
